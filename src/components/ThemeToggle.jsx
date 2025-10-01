@@ -7,8 +7,6 @@ function ThemeToggle() {
   const cycleTheme = () => {
     if (theme === "light") {
       setThemeMode("dark");
-    } else if (theme === "dark") {
-      setThemeMode("system");
     } else {
       setThemeMode("light");
     }
@@ -16,14 +14,12 @@ function ThemeToggle() {
 
   const getThemeIcon = () => {
     if (theme === "light") return "☀️";
-    if (theme === "dark") return "🌙";
-    return "💻";
+    return "🌙";
   };
 
   const getThemeLabel = () => {
     if (theme === "light") return "Light";
-    if (theme === "dark") return "Dark";
-    return "System";
+    return "Dark";
   };
 
   return (

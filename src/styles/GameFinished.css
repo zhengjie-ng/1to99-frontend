@@ -10,6 +10,12 @@
   gap: 5px;
 }
 
+@media (max-width: 768px) {
+  .finished-content {
+    padding: 10px 0;
+  }
+}
+
 .finished-players-scroll {
   width: 100%;
   overflow-y: auto;

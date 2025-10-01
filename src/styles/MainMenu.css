@@ -17,6 +17,12 @@
   padding: 40px 20px;
 }
 
+@media (max-width: 768px) {
+  .main-menu-content {
+    padding: 20px;
+  }
+}
+
 .sub-header {
   font-family: "Poppins", sans-serif;
   color: #fda956ff;

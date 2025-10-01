@@ -9,6 +9,12 @@
   padding: 20px 0;
 }
 
+@media (max-width: 768px) {
+  .lobby-content {
+    padding: 10px 0;
+  }
+}
+
 .loading-container {
   display: flex;
   justify-content: center;
