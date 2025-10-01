@@ -1,0 +1,46 @@
+.countdown-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.countdown-content {
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.countdown-title {
+  font-size: 28px;
+  font-family: 'Days One', cursive;
+  color: #fda956ff;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.countdown-number {
+  font-size: 80px;
+  font-family: 'Days One', cursive;
+  color: #92c246ff;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.countdown-subtitle {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #4e4e4eff;
+  margin: 20px 0 0 0;
+  text-align: center;
+}

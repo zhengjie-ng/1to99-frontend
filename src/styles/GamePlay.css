@@ -1,0 +1,105 @@
+.gameplay-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  max-width: 600px;
+  height: 90vh;
+  padding: 10px 0;
+  gap: 15px;
+}
+
+.gameplay-header {
+  text-align: center;
+}
+
+.guess-container {
+  position: relative;
+  width: 90%;
+}
+
+.guess-input {
+  height: 65px;
+  min-height: 50px;
+  margin: 12px;
+  border: 1px solid #fda956ff;
+  border-radius: 10px;
+  padding: 0 10px;
+  background-color: white;
+  font-size: 20px;
+  width: 400px;
+  font-family: "Poppins", sans-serif;
+}
+
+.guess-input.disabled {
+  background-color: #f5f5f5;
+  border-color: #bbbbbbff;
+  color: #4e4e4eff;
+}
+
+.not-your-turn-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.not-your-turn-text {
+  color: white;
+  font-size: 24px;
+  font-family: "Days One", cursive;
+  text-align: center;
+}
+
+.players-scroll-gameplay {
+  width: 100%;
+  overflow-y: auto;
+  max-height: 400px;
+  flex: 1;
+}
+
+.player-row-gameplay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin: 2px 0;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.player-row-gameplay.current {
+  background-color: #e0ffdbff;
+  border: 2px solid #fda956ff;
+}
+
+.player-info {
+  flex: 1;
+}
+
+.player-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fda956ff;
+  margin: 0 0 4px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.player-guess {
+  font-size: 14px;
+  color: #4e4e4eff;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.current-text {
+  color: #92c246ff;
+}
