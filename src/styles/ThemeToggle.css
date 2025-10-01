@@ -33,3 +33,15 @@
   background-color: #2d2d2d;
   border-color: #fda956ff;
 }
+
+@media (max-width: 768px) {
+  .theme-toggle {
+    width: 45px;
+    height: 45px;
+    min-width: 45px;
+    min-height: 45px;
+    font-size: 20px;
+    bottom: 15px;
+    right: 15px;
+  }
+}

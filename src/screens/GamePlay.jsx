@@ -36,6 +36,7 @@ function GamePlay() {
         });
       }, 100);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gameRoom?.currentPlayerIndex]);
 
   if (!gameRoom) {
@@ -84,8 +85,8 @@ function GamePlay() {
       <Background />
       <div className="gameplay-content">
         <div className="gameplay-header">
-          <Header style={{ fontSize: "50px" }}>Do not pick the</Header>
-          <Header style={{ fontSize: "50px" }}>Secret Number!</Header>
+          <Header>Do not pick the</Header>
+          <Header>Secret Number!</Header>
         </div>
 
         <Board
